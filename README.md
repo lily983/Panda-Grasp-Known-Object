@@ -23,4 +23,5 @@ After that, install the two files from Github.
 cd ..
 rm CMakeLists.txt
 rm package.xml
-curl -o CMakeLists.txt 
+curl -o CMakeLists.txt https://github.com/lily983/Panda-Grasp-Known-Object/blob/72ecfc52d7e3e7611ba11e4bdc2fb987754d1a8b/CMakeLists.txt
+curl -o package.xml https://github.com/lily983/Panda-Grasp-Known-Object/blob/72ecfc52d7e3e7611ba11e4bdc2fb987754d1a8b/package.xml
