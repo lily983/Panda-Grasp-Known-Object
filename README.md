@@ -11,7 +11,7 @@ This repo uses the panda arm to grasp a known object(with Aruco marker).
 Download the "franka_gripper_client.cpp" in the folder catkin_ws/src/franka_ros/franka_gripper/src/
 ```
 cd $path-to-catkin_ws/src/franka_ros/franka_gripper/src/
-curl -o franka_gripper_client.cpp https://github.com/lily983/Panda-Grasp-Known-Object/blob/6fa6f59e592f49cb85c44b2366f78b60452e79bb/franka_gripper_client.cpp
+wget https://raw.githubusercontent.com/lily983/Panda-Grasp-Known-Object/main/franka_gripper_client.cpp
 ```
 
 Stay the directory in the terminal from the last step.
@@ -23,5 +23,11 @@ After that, install the two files from Github.
 cd ..
 rm CMakeLists.txt
 rm package.xml
-curl -o CMakeLists.txt https://github.com/lily983/Panda-Grasp-Known-Object/blob/72ecfc52d7e3e7611ba11e4bdc2fb987754d1a8b/CMakeLists.txt
-curl -o package.xml https://github.com/lily983/Panda-Grasp-Known-Object/blob/72ecfc52d7e3e7611ba11e4bdc2fb987754d1a8b/package.xml
+wget https://raw.githubusercontent.com/lily983/Panda-Grasp-Known-Object/main/CMakeLists.txt
+wget https://raw.githubusercontent.com/lily983/Panda-Grasp-Known-Object/main/package.xml
+```
+Now, we need to catkin_build the catkin_ws.
+```
+catkin_build
+```
+
