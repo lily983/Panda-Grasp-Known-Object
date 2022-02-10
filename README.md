@@ -41,7 +41,7 @@ catkin_build
 Before using this repo, we need to do the following things:
 - Install camera on a static place
 - Handeye calibration (recommond repo: IFL_CAMP/easy_handeye url:https://github.com/IFL-CAMP/easy_handeye)
-- Print out Aruco marker (https://chev.me/arucogen/) (chooes Dictionary: Original ArUco)
+- Print out Aruco marker (https://chev.me/arucogen/) (chooes Dictionary: Original ArUco) (Remeber to check the printed marker size! Incorrect size will cause a huge error on calibration)
 - Modify Aruco detection file in pkg aruco_ros
 
 ## Commands
